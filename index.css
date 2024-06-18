@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2E3C56;
+  color: #fff;
+}
+
+a {
+  color: #aab2bd;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F80;
+}

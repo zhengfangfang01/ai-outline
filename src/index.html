@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../css/index.css" rel="stylesheet">
+  <title>Document</title>
+  <style>
+    details summary {
+      outline: none;
+      cursor: pointer;
+      list-style-type: none;
+    }
+
+    details summary::-webkit-details-marker {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="w-full px-12 py-8 flex items-center justify-between">
+    <ul class="flex items-center gap-5">
+      <a class="text-xl" href="#">ahrefs</a>
+      <li>
+        <details class="w-max relative">
+          <summary
+            class="w-full cursor-pointer focus:outline-none flex items-center gap-1 text-gray-400 hover:text-orange-500">
+            <span>Tools</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+            </svg>
+          </summary>
+          <div class="w-max relative text-sm select-none">
+            <ul class="w-max bg-white shadow-2xl absolute top-[100%] flex flex-col gap-3">
+              <li class="hover:bg-gray-200 cursor-pointer px-3 py-1">
+                <a href="#">
+                  <span class="text-lg text-black">Dashboard</span>
+                  <p class="text-gray-500">Get a high-level view of all your projects and track their SEO performance
+                    and progress.</p>
+                </a>
+              </li>
+              <li class="hover:bg-gray-200 cursor-pointer px-3 py-1">
+                <a href="#">
+                  <span class="text-lg text-black">Site Explorer</span>
+                  <p class="text-gray-500">Research your competitors' backlinks and keyword rankings.</p>
+                </a>
+              </li>
+              <li class="hover:bg-gray-200 cursor-pointer px-3 py-1">
+                <a href="#">
+                  <span class="text-lg text-black">Keywords Explorer</span>
+                  <p class="text-gray-500">Find winning keyword ideas from our industry-leading database.</p>
+                </a>
+              </li>
+              <li class="hover:bg-gray-200 cursor-pointer px-3 py-1">
+                <a href="#">
+                  <span class="text-lg text-black">Site Audit</span>
+                  <p class="text-gray-500">Automatically scan your website for SEO issues.</p>
+                </a>
+              </li>
+              <li class="hover:bg-gray-200 cursor-pointer px-3 py-1">
+                <a href="#">
+                  <span class="text-lg text-black">Rank Tracker</span>
+                  <p class="text-gray-500">Monitor your ranking progress on desktop and mobile.</p>
+                </a>
+              </li>
+              <li class="hover:bg-gray-200 cursor-pointer px-3 py-1">
+                <a href="#">
+                  <span class="text-lg text-black">Content Explorer</span>
+                  <p class="text-gray-500">Research content ideas and find link opportunities.</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </details>
+      </li>
+      <li><a href="#">Our data</a></li>
+      <li>
+        <details class="w-max relative">
+          <summary
+            class="w-full cursor-pointer focus:outline-none flex items-center gap-1 text-gray-400 hover:text-orange-500">
+            <span>Resources</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+            </svg>
+          </summary>
+          <div class="w-max relative text-sm select-none">
+            <ul class="w-max bg-white shadow-2xl absolute top-[100%] flex flex-col gap-3">
+              <li class="hover:bg-gray-200 cursor-pointer px-3 py-1">
+                <a href="#">
+                  <span class="text-lg text-black">Help center</span>
+                  <p class="text-gray-500">Learn how to use Ahrefs with bite-sized tutorials, FAQs, and best practices.
+                  </p>
+                </a>
+              </li>
+              <li class="hover:bg-gray-200 cursor-pointer px-3 py-1">
+                <a href="#">
+                  <span class="text-lg text-black">Blog</span>
+                  <p class="text-gray-500">Expand your SEO and marketing knowledge
+                    with detailed tutorials and case studies.</p>
+                </a>
+              </li>
+              <li class="hover:bg-gray-200 cursor-pointer px-3 py-1">
+                <a href="#">
+                  <span class="text-lg text-black">Beginner's Guide to SEO</span>
+                  <p class="text-gray-500">Learn the basics of SEO with our comprehensive beginner's guide.</p>
+                </a>
+              </li>
+              <li class="hover:bg-gray-200 cursor-pointer px-3 py-1">
+                <a href="#">
+                  <span class="text-lg text-black">Academy</span>
+                  <p class="text-gray-500"> Get better at digital marketing with our free video courses.</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </details>
+      </li>
+      <li><a href="#">Pricing</a></li>
+      <li><a href="#">Enterprise</a></li>
+      <li><a href="#">Conference</a></li>
+    </ul>
+    <div class="flex items-center gap-5 text-lg">
+      <span>🌍</span>
+      <div><a href="#">Sign in</a></div>
+      <button
+        class="w-max px-3 py-1.5 font-bold border-2 border-gray-400 text-white hover:border-[#f80] hover:text-orange-500">
+        Sign up
+      </button>
+    </div>
+  </nav>
+
+  <div class="px-32 py-10 flex flex-col gap-6">
+    <div>
+      <p><a href="#">AI Writing Tools /</a></p>
+      <p class="font-bold text-[74px]">Free AI Outline Generator</p>
+      <p class="text-lg">Input your rough ideas and transition from a blank page to an organized, well-structured
+        outline in minutes.
+      </p>
+    </div>
+
+    <div class="text-black grid" style="grid-template-columns: minmax(0, 1fr) minmax(0, 300px);">
+      <div class="flex flex-col gap-5 bg-white px-6 py-8">
+        <form id="blogPostForm">
+          <div class="flex flex-col gap-2">
+            <div class="flex items-center justify-between text-[22px]">
+              <div class="font-bold">What is the topic of your blog post?</div>
+              <details id="outlineLanguageSelector" class="w-max relative">
+                <summary class="w-full text-lg text-black cursor-pointer focus:outline-none flex items-center gap-2">
+                  <span>English</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </summary>
+                <div class="w-auto relative">
+                  <ul class="w-auto text-sm max-h-[300px] overflow-auto bg-white shadow-2xl absolute top-[100%]">
+                    <div class="flex items-center gap-2 px-3 border border-b-gray-300">
+                      <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="M21 21l-4.65-4.65"></path>
+                      </svg>
+                      <input id="languageSearch" type="text" class="w-full h-12 outline-none border-none focus:ring-0"
+                        placeholder="Search">
+                    </div>
+                  </ul>
+                </div>
+              </details>
+            </div>
+
+            <input type="text" id="blogTopicInput"
+              class="px-3 w-full h-12 outline-none border-2 hover:border-gray-400 focus:ring-0 focus:border-orange-400"
+              placeholder="e.g., How to make a website">
+          </div>
+
+          <div class="flex flex-col gap-2">
+            <div class="text-gray-500 text-[22px]">Important points to include in your content</div>
+            <textarea id="contentPointsInput" cols="30" rows="10"
+              class="px-3 w-full h-36 leading-9 outline-none border-2 hover:border-gray-400 focus:ring-0 focus:border-orange-400"
+              placeholder="e.g., How to choose a CMS and where to host a blog"></textarea>
+          </div>
+        </form>
+
+        <div class="flex items-center justify-between">
+          <div class="flex flex-col gap-3">
+            <details id="toneSelector" class="w-full h-auto mt-3 relative">
+              <summary
+                class="w-full py-2 px-5 text-black cursor-pointer focus:outline-none flex items-center justify-between gap-3 border-2 border-gray-400 hover:border-white focus:border-orange-400">
+                <span>Formal</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <ul class="w-full bg-white absolute top-[100%] max-h-[300px] overflow-auto"></ul>
+            </details>
+            <div class="text-gray-500">Writing tone</div>
+          </div>
+
+          <button type="button" onclick="getFormValues()"
+            class="px-5 py-3 border-none text-white bg-[#f80] flex items-center gap-2 hover:bg-orange-500">
+            <svg class="fill-white" height="24px" width="24px" viewBox="0 0 16 16">
+              <path class="generate-icon" fill-rule="evenodd"
+                d="M0.666656 4.34121V3.69182L1.01511 3.66015C2.37724 3.53344 3.29589 2.5356 3.43843 0.999239L3.47011 0.666626H4.18285L4.21453 0.999239C4.35708 2.5356 5.27573 3.53344 6.6537 3.66015L6.98631 3.69182V4.34121L6.6537 4.35705C5.32324 4.42041 4.37292 5.44992 4.21453 7.0338L4.18285 7.36641H3.47011L3.43843 7.0338C3.28005 5.44992 2.34556 4.42041 1.01511 4.35705L0.666656 4.34121ZM5.13318 9.53632V8.76022L7.76241 8.15835C8.80776 7.92077 8.99783 7.63567 9.17205 6.55863L9.72641 3.12163H10.7401L11.2944 6.55863C11.4687 7.63567 11.6587 7.92077 12.6883 8.15835L15.3333 8.76022V9.53632L12.6883 10.154C11.6587 10.3916 11.5003 10.6767 11.2944 11.7537L10.7401 15.3333H9.72641L9.17205 11.7537C8.99783 10.6767 8.80776 10.3916 7.76241 10.154L5.13318 9.53632ZM1.14182 11.7379V11.4686C2.04463 11.1202 2.58314 10.5658 2.97911 9.53632H3.18501C3.59682 10.5658 4.15118 11.136 5.03815 11.4686V11.7379C4.15118 12.0864 3.58098 12.5615 3.18501 13.7019H2.97911C2.58314 12.5615 2.04463 12.0864 1.14182 11.7379Z">
+              </path>
+            </svg>
+            <span>Generate Outline</span>
+          </button>
+        </div>
+
+        <div class="p-4 bg-gray-100">
+          <div>
+            <span>858 characters</span> ·
+            <span>127 words</span> ·
+            <span>👔 Formal</span> ·
+            <span>Croatian</span>
+          </div>
+          <div id="content" class="whitespace-pre-line">
+            I. Uvod
+            - Predstavljanje Python programskog jezika
+            - Važnost učenja Pythona
+            - Cilj blog posta: pružiti smjernice za učenje Pythona
+
+            II. Osnovni koncepti Pythona
+            - Varijable i tipovi podataka
+            - Operatori i izrazi
+            - Kontrolne strukture (uvjetne izjave, petlje)
+            - Funkcije i moduli
+
+            III. Praktično učenje Pythona
+            - Instalacija Python interpretera
+            - Korištenje interaktivnog režima i razvojnog okruženja
+            - Izrada prvog programa
+            - Korištenje Python dokumentacije i online resursa
+
+            IV. Napredne teme u Pythonu
+            - Rad s listama, rječnicima i nizovima
+            - OOP (objektno orijentirano programiranje)
+            - Manipulacija datotekama i rad s bazama podataka
+            - Web razvoj s Pythonom
+
+            V. Zaključak
+            - Sažetak važnih koraka za uspješno učenje Pythona
+            - Poticanje čitatelja na daljnje istraživanje i praksu
+            - Ohrabrenje za upornost i kontinuirano usavršavanje u programiranju Pythona.
+          </div>
+
+          <div
+            class="w-full mt-4 pt-2 text-gray-600 border-t border-t-gray-300 flex items-center gap-8 leading-8 justify-between">
+            <div class="flex items-center gap-1 hover:text-orange-500 cursor-pointer">
+              <svg class="fill-black hover:fill-orange-500" height="18" width="18" viewBox="0 0 18 18">
+                <path class="generate-icon" fill-rule="evenodd"
+                  d="M0.666656 4.34121V3.69182L1.01511 3.66015C2.37724 3.53344 3.29589 2.5356 3.43843 0.999239L3.47011 0.666626H4.18285L4.21453 0.999239C4.35708 2.5356 5.27573 3.53344 6.6537 3.66015L6.98631 3.69182V4.34121L6.6537 4.35705C5.32324 4.42041 4.37292 5.44992 4.21453 7.0338L4.18285 7.36641H3.47011L3.43843 7.0338C3.28005 5.44992 2.34556 4.42041 1.01511 4.35705L0.666656 4.34121ZM5.13318 9.53632V8.76022L7.76241 8.15835C8.80776 7.92077 8.99783 7.63567 9.17205 6.55863L9.72641 3.12163H10.7401L11.2944 6.55863C11.4687 7.63567 11.6587 7.92077 12.6883 8.15835L15.3333 8.76022V9.53632L12.6883 10.154C11.6587 10.3916 11.5003 10.6767 11.2944 11.7537L10.7401 15.3333H9.72641L9.17205 11.7537C8.99783 10.6767 8.80776 10.3916 7.76241 10.154L5.13318 9.53632ZM1.14182 11.7379V11.4686C2.04463 11.1202 2.58314 10.5658 2.97911 9.53632H3.18501C3.59682 10.5658 4.15118 11.136 5.03815 11.4686V11.7379C4.15118 12.0864 3.58098 12.5615 3.18501 13.7019H2.97911C2.58314 12.5615 2.04463 12.0864 1.14182 11.7379Z">
+                </path>
+              </svg>
+              <span class="text-black hover:text-orange-500 font-bold">More like this</span>
+            </div>
+            <div class="flex items-center gap-1 hover:text-orange-500 cursor-pointer">
+              <svg class="fill-gray-600 hover:fill-orange-500" height="18" width="18" viewBox="0 0 18 18">
+                <path class="generate-icon" fill-rule="evenodd"
+                  d="M0.666656 4.34121V3.69182L1.01511 3.66015C2.37724 3.53344 3.29589 2.5356 3.43843 0.999239L3.47011 0.666626H4.18285L4.21453 0.999239C4.35708 2.5356 5.27573 3.53344 6.6537 3.66015L6.98631 3.69182V4.34121L6.6537 4.35705C5.32324 4.42041 4.37292 5.44992 4.21453 7.0338L4.18285 7.36641H3.47011L3.43843 7.0338C3.28005 5.44992 2.34556 4.42041 1.01511 4.35705L0.666656 4.34121ZM5.13318 9.53632V8.76022L7.76241 8.15835C8.80776 7.92077 8.99783 7.63567 9.17205 6.55863L9.72641 3.12163H10.7401L11.2944 6.55863C11.4687 7.63567 11.6587 7.92077 12.6883 8.15835L15.3333 8.76022V9.53632L12.6883 10.154C11.6587 10.3916 11.5003 10.6767 11.2944 11.7537L10.7401 15.3333H9.72641L9.17205 11.7537C8.99783 10.6767 8.80776 10.3916 7.76241 10.154L5.13318 9.53632ZM1.14182 11.7379V11.4686C2.04463 11.1202 2.58314 10.5658 2.97911 9.53632H3.18501C3.59682 10.5658 4.15118 11.136 5.03815 11.4686V11.7379C4.15118 12.0864 3.58098 12.5615 3.18501 13.7019H2.97911C2.58314 12.5615 2.04463 12.0864 1.14182 11.7379Z">
+                </path>
+              </svg>
+              <span>Modify</span>
+            </div>
+            <div class="flex-1 flex items-center justify-end gap-1 hover:text-orange-500 cursor-pointer">
+              <svg class="fill-gray-600 hover:fill-orange-500" width="18" height="18" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"
+                  fill="currentColor" />
+              </svg>
+              <span id="copy">Copy</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-[300px] h-[100%] p-8 bg-[#F4F5F6] relative">
+        <div>
+          <div class="font-bold">Structure</div>
+          <details id="sectionSelector" class="w-full h-auto mt-3">
+            <summary
+              class="w-full p-2.5 text-black cursor-pointer focus:outline-none flex items-center justify-between gap-3 border-2 border-gray-400 hover:border-white focus:border-orange-400">
+              <span>3 sections</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </summary>
+            <ul class="bg-white"></ul>
+          </details>
+        </div>
+
+        <div class="absolute bottom-8">
+          <button id="export" class="w-[236px] font-bold py-2 border-2 border-gray-400 hover:border-orange-400">Export
+            results</button>
+          <p class="text-gray-400 text-center mt-1.5">Save all as a text file</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="p-48 leading-8 bg-white text-black flex flex-col gap-20 text-lg">
+    <div class="px-20 flex flex-col gap-5 pb-20 border-b-2">
+      <div class="text-4xl">Use cases of Ahrefs’ Outline Generator</div>
+      <ul class="flex flex-col gap-4">
+        <li class="flex items-start gap-2">
+          <div class="text-[#F80] text-xl">✓</div>
+          <div>
+            <span class="font-bold">Academic paper writing.</span>
+            <span>
+              Ahrefs' Outline Generator can be immensely helpful for students, researchers, and academics who need to
+              organize their thoughts and create a well-structured outline for their academic papers. By inputting key
+              points or subtopics, the tool can generate an outline that follows a logical progression and ensures
+              coherence
+              in the paper's structure. This use case saves time and effort in manually organizing the content, allowing
+              writers to focus more on the content itself.
+            </span>
+          </div>
+        </li>
+        <li class="flex items-start gap-2">
+          <div class="text-[#F80] text-xl">✓</div>
+          <div>
+            <span class="font-bold">Presentation preparation.</span>
+            <span>
+              Professionals who need to deliver presentations can benefit from Ahrefs’ Outline
+              Generator. By inputting the main ideas or key talking points, the tool can generate a comprehensive
+              outline that guides the presentation's flow and structure. This use case helps presenters stay organized,
+              maintain a logical order, and ensure that important points are covered effectively.
+            </span>
+          </div>
+        </li>
+        <li class="flex items-start gap-2">
+          <div class="text-[#F80] text-xl">✓</div>
+          <div>
+            <span class="font-bold">Content planning and writing.</span>
+            <span>
+              Content creators, bloggers, and writers can utilize Ahrefs’ Outline Generator to plan and structure their
+              content effectively. By inputting the main ideas or sections they want to cover, the tool can generate an
+              outline that serves as a roadmap for the content creation process. This use case helps in brainstorming
+              ideas, organizing information, and ensuring a cohesive and well-structured final piece.
+            </span>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="px-20 flex flex-col gap-5">
+      <div class="text-4xl">The technology behind Ahrefs’ Outline Generator</div>
+      <div>
+        Ahrefs’ Outline Generator uses a language model that learns patterns, grammar, and vocabulary from large amounts
+        of text data – then uses that knowledge to generate human-like text based on a given prompt or input. The
+        generated text combines both the model's learned information and its understanding of the input.
+      </div>
+    </div>
+  </div>
+
+  <div class="p-20 flex items-center gap-6">
+    <img src="./images/power.svg" alt="powered by Ahrefs image">
+    <div class="flex flex-col gap-5">
+      <p class="text-5xl">Powered by Ahrefs</p>
+      <p class="text-xl">Everything you need to rank higher & get more traffic.</p>
+      <button class="w-max px-5 py-3 text-3xl font-bold border-none text-white bg-[#f80] hover:bg-orange-500">
+        See Pricing
+      </button>
+    </div>
+  </div>
+
+  <div class="p-20 bg-black text-gray-400 leading-8 flex flex-col gap-12">
+    <div class="grid" style="grid-template-columns: auto auto auto auto auto auto">
+      <div>
+        <span class="text-white text-sm">Language</span>
+        <details id="webLanguageSelector" class="w-max h-auto mt-3">
+          <summary
+            class="w-full py-2 px-4 leading-6 cursor-pointer focus:outline-none flex items-center justify-between gap-3 border-2 border-gray-400 hover:border-white focus:border-orange-400">
+            <span class="text-sm text-white">English</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+            </svg>
+          </summary>
+          <ul class="bg-white text-black"></ul>
+        </details>
+      </div>
+
+      <div>
+        <span class="text-white text-sm">Core tools</span>
+        <ul>
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Site Explorer</a></li>
+          <li><a href="#">Keywords</a></li>
+          <li><a href="#">Explorer</a></li>
+          <li><a href="#">Site Audit</a></li>
+          <li><a href="#">Rank Tracker</a></li>
+          <li><a href="#">Content Explorer</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <a class="text-white text-sm cursor-pointer" href="#">Free SEO tools →</a>
+        <ul>
+          <li><a href="#">Webmaster Tools</a></li>
+          <li><a href="#">Backlink Checker</a></li>
+          <li><a href="#">Broken Link Checker</a></li>
+          <li><a href="#">Website Authority Checker</a></li>
+          <li><a href="#">Keyword Generator</a></li>
+          <li><a href="#">YouTube Keyword Tool</a></li>
+          <li><a href="#">Amazon Keyword Tool</a></li>
+          <li><a href="#">Bing Keyword Tool</a></li>
+          <li><a href="#">SERP Checker</a></li>
+          <li><a href="#">SEO Toolbar</a></li>
+          <li><a href="#">WordPress Plugin</a></li>
+          <li><a href="#">Keyword Rank Checker</a></li>
+          <li><a href="#">Keyword Difficulty Checker</a></li>
+          <li><a href="#">Website Checker</a></li>
+          <li><a href="#">AI Writing tools</a></li>
+          <li><a href="#">SEO Audit Tool</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <span class="text-white text-sm">Extra tools & features</span>
+        <ul>
+          <li><a href="#">Domain Comparison</a></li>
+          <li><a href="#">Batch Analysis</a></li>
+          <li><a href="#">Link Intersect</a></li>
+          <li><a href="#">Content Gap</a></li>
+          <li><a href="#">Email Alerts</a></li>
+          <li><a href="#">SEO Checker</a></li>
+          <li><a href="#">Word Count</a></li>
+          <li><a href="#">Grammar Checker</a></li>
+          <li><a href="#">Traffic Checker</a></li>
+          <li><a href="#">Looker Studio</a></li>
+          <li><a href="#">Connectors</a></li>
+          <li><a href="#">Top Websites</a></li>
+          <li><a href="#">SEO Reporting</a></li>
+        </ul>
+      </div>
+
+      <div class="flex flex-col gap-4">
+        <div>
+          <span class="text-white text-sm">Product</span>
+          <ul>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Our data</a></li>
+            <li><a href="#">AhrefsBot</a></li>
+            <li><a href="#">API</a></li>
+            <li><a href="#">Enterprise</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <span class="text-white text-sm">Company</span>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Media kit</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Legal info</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Policy</a></li>
+            <li><a href="#">Events</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="flex flex-col gap-4">
+        <div>
+          <span class="text-white text-sm">Extra tools & features</span>
+          <ul>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Tech blog</a></li>
+            <li><a href="#">Podcast</a></li>
+            <li><a href="#">SEO Guide</a></li>
+            <li><a href="#">Help center</a></li>
+            <li><a href="#">Academy</a></li>
+            <li><a href="#">Alternatives</a></li>
+            <li><a href="#">SEO</a></li>
+            <li><a href="#">Agencies</a></li>
+            <li><a href="#">Digest</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <span class="text-white text-sm">Social</span>
+          <ul>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Youtube</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Linkedin</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center">© 2024 Ahrefs Pte. Ltd. (201227417H) 16 Raffles Quay, #33-03 Hong Leong Building, Singapore
+      048581</div>
+  </div>
+</body>
+<script src="./index.js"></script>
+
+</html>
