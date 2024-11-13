@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
-    "dev": "tailwindcss -i ./public/index.css -o ./dist/index.css --watch",
-    "build": "tailwindcss -i ./public/index.css -o ./dist/index.css"
+    "dev": "tailwindcss -i ./public/index.css -o ./public/dist/index.css --watch",
+    "build": "tailwindcss -i ./public/index.css -o ./public/dist/index.css"
   },
   "keywords": [],
   "author": "",
