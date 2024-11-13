@@ -7,12 +7,8 @@ const port = 3003;
 
 app.use(express.static(path.join(__dirname, "./public")));
 
-app.use('/*', (req, res) => {
-  res.sendFile(path.join(__dirname, "./public/index.html"));
-});
-
 app.use('/test', (req, res) => {
-  res.send('test');
+  res.send('Hello test');
 });
 
 app.listen(port, () => {
